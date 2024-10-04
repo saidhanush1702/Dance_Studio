@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    top: 0px;
+    color: white;
+    background: #333;
+}
+
+.containerHead{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerHead h1{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.containerHead ul{
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerHead ul li{
+    padding-right: 30px;
+}
+
+.containerHead ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .container{
+    height: 1200px;
+} */
+
+.container #home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    color: white;
+    background-color: black;
+}
+
+.container #home .text{
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.container #home h1{
+    font-size: 180px;
+}
+
+.container #home p{
+    font-size: 170%;
+}
+
+
+.container #home img{
+    width: 50%;
+}
+
+
+.container #aboutus{
+    background: #dad7d7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #schedule{
+    height: 100vh;
+}
+
+.container #classes{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+}
+
+#classes h1{
+    padding: 20px;
+}
+
+#classes .containervideos video{
+    /* height: 500px; */
+    width: 500px;
+    padding: 20px 0px;
+}
+
+.extracontent{
+    text-align: right;
+    padding: 20px;
+}
+
+.features{
+    margin: 0px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features .feature-item{
+    padding: 5px;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    background: #333;
+    height: 50px;
+    padding: 20px;
+}
+
+
+
+
+@media (max-width: 570px) {
+
+    .containerHead{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container #home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container #home .text{
+        padding: 0px;
+    }
+
+    #classes .containervideos video{
+        /* height: 500px; */
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
