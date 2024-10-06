@@ -1,4 +1,16 @@
-*{
+.bluishcolor{
+    background: #333;
+}
+
+
+
+
+
+
+
+
+
+/* *{
     padding: 0px;
     margin: 0px;
 }
@@ -40,12 +52,14 @@ header{
     text-decoration: none;
     color: white;
 }
+*/
 
 
 /* .container{
     height: 1200px;
 } */
 
+/*
 .container #home{
     height: 100vh;
     display: flex;
@@ -106,7 +120,7 @@ header{
 }
 
 #classes .containervideos video{
-    /* height: 500px; */
+    /* height: 500px; *//*
     width: 500px;
     padding: 20px 0px;
 }
@@ -132,7 +146,6 @@ footer{
     text-align: center;
     color: white;
     background: #333;
-    height: 50px;
     padding: 20px;
 }
 
@@ -161,8 +174,10 @@ footer{
     }
 
     #classes .containervideos video{
-        /* height: 500px; */
+        /* height: 500px; *//*
         width: 100%;
         padding: 20px 0px;
     }
-}
+} 
+
+*/
